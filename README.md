@@ -19,3 +19,5 @@ This project incorporated a dynamic and interactive visualization dashboard and 
 
 ## Results and Dashboard Framework
 The complete results was an interactive dashboard launched through GitHub Pages. 
+
+<img width="1249" src="https://github.com/jhohing/Plotly/blob/main/static/images/Plotly_bellybutton_Page.png">
