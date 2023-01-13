@@ -7,15 +7,28 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Belly Button Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style type="text/css">
+    .bgimg{
+      background-image: url('/static/images/Cultures.jpg');
+    }
+  </style>
 </head>
 
 <body>
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+      <div class="col-md-12 jumbotron text-center bgimg">
+        <h1 style="color: white">Belly Button Biodiversity Dashboard</h1>
+        <p style="color: white">Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p class="lead">This project is to visually display data that was collected from people that volunteered to give their bellybutton bacteria for a study to show different bacteria cultures 
+          in each person's bellybutton. Each graph has its own purpose and is useful to give people insight into what cultures exist in their bullybuttoms. Researchers are using this data to help 
+          determine ways to use the bacteria cultures that are suitable for synthetic beef production.
+        </p>
       </div>
     </div>
     <div class="row">
@@ -39,15 +52,29 @@
       </div>
     </div>
     <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-5">
+        <p class="lead">This graph shows the top 10 bacteria cultures for the test subject that is selected using the dropdown for the test subject number.</p>
+      </div>
+      <div class="col-md-5">
+        <p class="lead">This graph shows how frequently the selected test subject washes their bullybutton.</p>
+      </div>
+    </div>
+    <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p class="lead">This graph shows all the bacteria cultures for the selected test patient. The larger the bubble is, the more of that bacteria is in the person's bellybutton</button> </p>
       </div>
     </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="charts.js"></script>
+  <script src="/static/js/charts.js"></script>
 
 </body>
 
